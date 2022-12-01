@@ -1,0 +1,27 @@
+.drama__img {
+	width: 100px;
+}
+.drama {
+	color: white;
+}
+
+.drama__header {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.drama__ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.drama__li {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 100px;
+}
+
+.drama__title {
+	display: block;
+}
