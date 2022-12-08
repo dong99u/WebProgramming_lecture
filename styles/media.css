@@ -1,27 +1,46 @@
-.drama__img {
-	width: 100px;
-}
-.drama {
-	color: white;
-}
-
-.drama__header {
-	font-size: 36px;
+.media-tab__title {
+	font-size: 30px;
 	font-weight: 700;
+	color: #4e4537;
 }
-
-.drama__ul {
+.media__logo {
+	font-size: 25px;
+	font-weight: 500;
+	color: #68a08f;
+	margin-bottom: 10px;
+}
+.media__ul {
 	display: flex;
-	justify-content: space-between;
+	overflow: auto;
+}
+.media__ul::-webkit-scrollbar {
+	height: 10px;
+}
+.media__ul::-webkit-scrollbar-track {
+	background-color: #ffc1b2;
+}
+.media__ul::-webkit-scrollbar-thumb {
+	background-color: #fe8a7e;
+	border-radius: 200px;
+}
+.media__image {
+	width: var(--media-img-width);
+	height: var(--media-img-height);
+
+	margin-bottom: 10px;
+}
+.media__li {
+	padding: 20px;
+	text-align: center;
 }
 
-.drama__li {
-	display: flex;
-	flex-direction: column;
-	padding: 10px;
-	width: 100px;
+.media {
+	margin-top: 50px;
 }
 
-.drama__title {
-	display: block;
+.media-tab {
+	padding: 30px;
+}
+.media__title {
+	color: #b5aa99;
 }
