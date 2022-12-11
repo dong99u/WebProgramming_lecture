@@ -1,0 +1,54 @@
+.world-map {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main svg {
+	fill: #8aaa91;
+}
+
+.main svg path {
+	transition: all 0.3s ease-in-out;
+}
+
+.main svg #CN,
+.main svg #JP,
+.main svg #TW,
+.main svg #TH,
+.main svg #MY,
+.main svg #ID,
+.main svg #IN,
+.main svg #VN,
+.main svg #AU,
+.main svg #US,
+.main svg #BR,
+.main svg #FR,
+.main svg #GB,
+.main svg #RU,
+.main svg #TR,
+.main svg #AE,
+.main svg #ZA {
+	fill: #ffc1b2;
+}
+
+.main svg #CN:hover,
+.main svg #JP:hover,
+.main svg #TW:hover,
+.main svg #TH:hover,
+.main svg #MY:hover,
+.main svg #ID:hover,
+.main svg #IN:hover,
+.main svg #VN:hover,
+.main svg #AU:hover,
+.main svg #US:hover,
+.main svg #BR:hover,
+.main svg #FR:hover,
+.main svg #GB:hover,
+.main svg #RU:hover,
+.main svg #TR:hover,
+.main svg #AE:hover,
+.main svg #ZA:hover {
+	fill: #fe8a7e;
+	transform: translate(-1.5px, -1.5px);
+}

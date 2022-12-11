@@ -1,0 +1,244 @@
+.country-tab {
+	border: thick double rgba(255, 140, 94, 0.664);
+	border-radius: 30px;
+	background-color: white;
+	padding: var(--tab-padding);
+	box-sizing: border-box;
+	width: 70%;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+
+.country-tab__flag {
+	width: 200px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.country-tab__header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.country-tab__name {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.country-tab__graphs {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.country-tab__graph {
+	position: relative;
+	height: 30px;
+
+	width: 50%;
+}
+.country-tab__graph span {
+	font-size: 16px;
+	font-weight: 600;
+}
+.country-tab__per {
+	position: absolute;
+	background-color: #00766275;
+	height: 100%;
+}
+
+/* width size */
+.china--korean-food {
+	width: 16.2%;
+}
+.china--drama {
+	width: 15.6%;
+}
+.china--beauty-service,
+.france--kpop {
+	width: 15.6%;
+}
+.china--star {
+	width: 9.8%;
+}
+.china--beauty-product {
+	width: 7.8%;
+}
+.russia--beauty-product {
+	width: 16%;
+}
+.russia--car {
+	width: 14.8%;
+}
+.russia--korean-food {
+	width: 13.3%;
+}
+.russia--kpop {
+	width: 10.3%;
+}
+.russia--it,
+.turkey--kpop {
+	width: 9.3%;
+}
+.japan--korean-food {
+	width: 28.4%;
+}
+.japan--kpop,
+.vietnam--kpop,
+.turkey--war {
+	width: 17.2%;
+}
+.japan--lang {
+	width: 9.8%;
+}
+.japan--north,
+.turkey--car {
+	width: 6.4%;
+}
+.japan--star,
+.france--danger {
+	width: 5.6%;
+}
+.taiwan--korean-food {
+	width: 24.6%;
+}
+.taiwan--star,
+.taiwan--drama,
+.vietnam--drama {
+	width: 13%;
+}
+.taiwan--kpop,
+.uk--korean-food {
+	width: 10.8%;
+}
+.taiwan--beauty-service {
+	width: 8.4%;
+}
+
+.tailand--kpop,
+.aust--kpop {
+	width: 24%;
+}
+.tailand--korean-food {
+	width: 10.8%;
+}
+.tailand--drama,
+.uae--korean-food {
+	width: 10.6%;
+}
+.tailand--star,
+.france--it,
+.uk--north {
+	width: 8.6%;
+}
+.tailand--beauty-service,
+.vietnam--star,
+.brazil--it {
+	width: 8%;
+}
+.malaysia--kpop {
+	width: 31.4%;
+}
+.malaysia--korean-food {
+	width: 14.8%;
+}
+.malaysia--drama {
+	width: 10.2%;
+}
+.malaysia--star {
+	width: 7.6%;
+}
+.malaysia--it,
+.uk--danger,
+.sa--danger {
+	width: 7.2%;
+}
+
+.indonesia--kpop {
+	width: 40.6%;
+}
+.indonesia--drama,
+.vietnam--korean-food {
+	width: 15.2%;
+}
+.indonesia--star {
+	width: 7.4%;
+}
+.indonesia--it {
+	width: 7.2%;
+}
+.indonesia--korean-food {
+	width: 7%;
+}
+
+.india--it,
+.uae--kpop {
+	width: 14.6%;
+}
+.india--drama {
+	width: 9.4%;
+}
+.india--kpop,
+.uae--car,
+.uae--beauty-product {
+	width: 8.4%;
+}
+.india--korean-food {
+	width: 7.4%;
+}
+.india--star,
+.usa--north,
+.brazil--danger {
+	width: 6.6%;
+}
+.aust--korean-food {
+	width: 16.8%;
+}
+.aust--danger,
+.sa--movie,
+.sa--korean-food {
+	width: 6.8%;
+}
+.aust--north,
+.uk--it {
+	width: 6.3%;
+}
+.aust--it,
+.usa--danger,
+.brazil--grow {
+	width: 5.8%;
+}
+.vietnam--beauty-product {
+	width: 9.2%;
+}
+.usa--kpop {
+	width: 19%;
+}
+.usa--korean-food,
+.sa--kpop {
+	width: 12.6%;
+}
+.usa--war {
+	width: 4.8%;
+}
+.brazil--kpop {
+	width: 30.8%;
+}
+.brazil--north {
+	width: 5%;
+}
+.france--north,
+.turkey--drama,
+.uae--it,
+.sa--it {
+	width: 11.2%;
+}
+.uk--kpop {
+	width: 20.6%;
+}
+.turkey--it {
+	width: 8%;
+}

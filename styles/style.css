@@ -10,11 +10,13 @@
 @import "components/bibimbap.css";
 @import "components/bulgogi.css";
 @import "components/tteokbokki.css";
+@import "components/country-tab.css";
 /* screens */
 @import "screens/intro.css";
 @import "screens/media.css";
 @import "screens/foods.css";
 @import "screens/company.css";
+@import "screens/home.css";
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
@@ -42,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 	font-size: 72px;
 	font-weight: 700;
 	width: 100vw;
-	height: 100vh;
+	height: 130vh;
 	position: absolute;
 	top: 0px;
 }
