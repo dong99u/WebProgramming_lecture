@@ -1,5 +1,37 @@
 :root {
 	--main-bg-color: #fde4bd;
+
+	/* media image */
 	--media-img-width: 130px;
 	--media-img-height: 183.8px;
+
+	/* food image */
+	--food-img-width: 200px;
+	--food-img-height: 140px;
+
+	--img-margin-bottom: 10px;
+
+	/* label color */
+	--label-color: #b5aa99;
+
+	/* header */
+	--header-logo-color: #4e4537;
+	--nav-a-color: #ff8b5e;
+
+	/* tab */
+	--tab-title-font-size: 30px;
+	--tab-title-font-weight: 700;
+	--tab-title-color: #4e4537;
+	--tab-padding: 30px;
+
+	/* logo */
+	--logo-font-size: 25px;
+	--logo-font-weight: 500;
+	--logo-color: #68a08f;
+	--logo-margin-bottom: 10px;
+
+	/* disappear tab */
+	--disappear-tab-logo-color: #402e32;
+
+	--food-tab-bg-color: #ffc1b2;
 }

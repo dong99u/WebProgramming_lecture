@@ -1,0 +1,99 @@
+.chicken {
+	border: thick double rgba(255, 140, 94, 0.664);
+	border-radius: 30px;
+	background-color: #ffc1b2;
+	padding: var(--tab-padding);
+	box-sizing: border-box;
+	width: 90%;
+	position: relative;
+	left: 50px;
+	margin-bottom: 30px;
+	height: 700px;
+	overflow: auto;
+}
+
+.chicken::-webkit-scrollbar {
+	width: 5px;
+}
+
+.chicken::-webkit-scrollbar-track {
+	background-color: #b3f4e9;
+	border-radius: 200px;
+}
+.chicken::-webkit-scrollbar-thumb {
+	background-color: #7dbbb1;
+	border-radius: 200px;
+}
+.chicken__img {
+	width: var(--food-img-width);
+	height: var(--food-img-height);
+	margin-bottom: var(--img-margin-bottom);
+}
+.chicken__ul {
+	display: flex;
+	justify-content: space-between;
+	overflow: auto;
+}
+.chicken__logo {
+	font-size: var(--logo-font-size);
+	font-weight: var(--logo-font-weight);
+	color: var(--logo-color);
+	margin-bottom: var(--logo-margin-bottom);
+}
+.chicken__li {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.chicken__ul::-webkit-scrollbar {
+	height: 3px;
+}
+.chicken__ul::-webkit-scrollbar-track {
+	background-color: #b3f4e9;
+}
+.chicken__ul::-webkit-scrollbar-thumb {
+	background-color: #7dbbb1;
+	border-radius: 200px;
+}
+
+.chicken__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	position: sticky;
+	top: -30px;
+	background-color: var(--food-tab-bg-color);
+}
+
+.chicken__logo {
+	color: var(--disappear-tab-logo-color);
+	width: 55%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.chicken-culture__title {
+	font-size: var(--tab-title-font-size);
+	font-weight: var(--tab-title-font-weight);
+	color: var(--tab-title-color);
+}
+
+.chicken-culture {
+	padding: 30px;
+}
+
+.chicken-culture__label {
+	font-size: 20px;
+	margin-bottom: 20px;
+	width: 300px;
+	text-align: center;
+}
+.chicken-culture__column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 0;
+}

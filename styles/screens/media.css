@@ -1,20 +1,20 @@
 .media-tab__title {
-	font-size: 30px;
-	font-weight: 700;
-	color: #4e4537;
+	font-size: var(--tab-title-font-size);
+	font-weight: var(--tab-title-font-weight);
+	color: var(--tab-title-color);
 }
 .media__logo {
-	font-size: 25px;
-	font-weight: 500;
-	color: #68a08f;
-	margin-bottom: 10px;
+	font-size: var(--logo-font-size);
+	font-weight: var(--logo-font-weight);
+	color: var(--logo-color);
+	margin-bottom: var(--logo-margin-bottom);
 }
 .media__ul {
 	display: flex;
 	overflow: auto;
 }
 .media__ul::-webkit-scrollbar {
-	height: 10px;
+	height: 3px;
 }
 .media__ul::-webkit-scrollbar-track {
 	background-color: #ffc1b2;
@@ -23,14 +23,16 @@
 	background-color: #fe8a7e;
 	border-radius: 200px;
 }
-.media__image {
+
+.media__img {
 	width: var(--media-img-width);
 	height: var(--media-img-height);
-
-	margin-bottom: 10px;
+	margin-bottom: var(--img-margin-bottom);
 }
 .media__li {
 	padding: 20px;
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 }
 
@@ -39,7 +41,7 @@
 }
 
 .media-tab {
-	padding: 30px;
+	padding: var(--tab-padding);
 }
 .media__title {
 	color: #b5aa99;

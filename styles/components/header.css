@@ -5,13 +5,15 @@
 .header__logo {
 	font-size: 72px;
 	font-weight: 800;
-	color: #4e4537;
+	color: var(--header-logo-color);
+	text-decoration: none;
 }
+
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 30px;
 }
 .nav__ul {
 	display: flex;
@@ -19,9 +21,16 @@
 }
 .nav__li a {
 	display: block;
-	color: #ff8b5e;
+	color: var(--nav-a-color);
 	padding: 30px;
 	margin-right: 30px;
 	font-weight: 700;
 	font-size: 20px;
+
+	transition: all 0.3s ease-in-out;
+}
+.nav__li a:hover {
+	background-color: var(--nav-a-color);
+	color: var(--main-bg-color);
+	border-radius: 100px;
 }

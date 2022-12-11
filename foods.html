@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HanMap</title>
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<a class="header__logo" href="home.html">HanMap</a>
+			<nav class="header__nav">
+				<ul class="nav__ul">
+					<li class="nav__li">
+						<a class="nav__a" href="media.html">MEDIA</a>
+					</li>
+					<li class="nav__li">
+						<a class="nav__a" href="foods.html">FOODS</a>
+					</li>
+					<li class="nav__li">
+						<a class="nav__a" href="contact.html">CONFUSED</a>
+					</li>
+					<li class="nav__li">
+						<a class="nav__a" href="contact.html">COMPANY</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<article class="foods-tab">
+			<h1 class="foods-tab__title">FOODS</h1>
+			<section class="foods">
+				<h3 class="foods__logo">
+					Top 5 Korean food that foreigners like
+				</h3>
+				<ul class="foods__ul-rank">
+					<li class="foods__li">
+						<img
+							class="foods__img"
+							src="https://img.bbq.co.kr:449/uploads/bbq_d/pc/%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%94%BC.png"
+							alt=""
+						/>
+						<span class="foods__name">한국식 치킨</span>
+					</li>
+					<li class="foods__li">
+						<img
+							class="foods__img"
+							src="https://w.namu.la/s/a85e178b2233fa1e3461ae51dba6757e8cc87b215ea326660c85904f61daf0dcd84f8b8733cee71ca34fa743822d5aa1650766f6b2a90118edc5e76974e830527050abe04e8f160eeda5dca7225b44ace1d4b2aedeebbc9b3677f8bfd695ac2c09e1f5cbe62bee85a02ea32e1db250d1"
+							alt=""
+						/>
+						<span class="foods__name">김치</span>
+					</li>
+					<li class="foods__li">
+						<img
+							class="foods__img"
+							src="https://mblogthumb-phinf.pstatic.net/MjAxNzA0MjRfMjI3/MDAxNDkzMDIzMjc4MjU2.L-3Vv9r0XjeRGGncaB0p0II6mw9-NoBfu2k4PMCrTdgg.jP8wA64wrWrXrH3ZTP4UBCPR6ZWppqqnhXkS8FPpYMQg.JPEG.estelle926/151435979-56a57a083df78cf772888a61.jpg?type=w800"
+							alt=""
+						/>
+						<span class="foods__name">비빔밥</span>
+					</li>
+					<li class="foods__li">
+						<img
+							class="foods__img"
+							src="https://w.namu.la/s/9f58e3c440d2eeec49d5a762ceaa0e7679eef49e9c40b9aa5497ef3b34beaaba986bfc000200c5d4fccc241d95a7e68084ad622a4e8b3c07130027c87a323795db0f29745727f94dacede2e62cee2a87badd9bb1c9bbbab6abf1e7ce4552e3402af4ceb645b43e135aecf7f634eb5ed8"
+							alt=""
+						/>
+						<span class="foods__name">불고기</span>
+					</li>
+					<li class="foods__li">
+						<img
+							src="https://w.namu.la/s/a3cfb7497cac8b09c2ca0079c02d8dc3863c25dd238e9620a812d141f938ffcddb2e15a1e182d891d044f517e62eb7ee9d5272786931e282b20cb33df004983bbf37b63635faee9e2b470d67682856eec17e1141130dbc07c957c278f4fab430"
+							alt=""
+							class="foods__img"
+						/>
+						<span class="foods__name">떡볶이</span>
+					</li>
+				</ul>
+			</section>
+		</article>
+
+		<article class="chicken hidden">
+			<header class="chicken__header">
+				<h3 class="chicken__logo">Kinds of chickens</h3>
+				<button class="close-button">
+					<i class="fa-solid fa-xmark fa-2xl"></i>
+				</button>
+			</header>
+			<section class="chicken__types">
+				<ul class="chicken__ul">
+					<li class="chicken__li">
+						<img
+							class="chicken__img"
+							src="https://mblogthumb-phinf.pstatic.net/MjAyMDA0MDFfNjcg/MDAxNTg1NzQ2MzkyMTQz.0YTp6pcM4ng_pMG1sxZJcJVX6CKnoSXtAKR31oKbSJgg.k1P4hgkkvcboh45czGZ6UFLPErFf1LHUwMXS-UHXkGEg.PNG.kizaki56/06.png?type=w800"
+							alt="BBQ 황금올리브"
+						/>
+						<span class="chicken__type-name">후라이드 치킨</span>
+					</li>
+					<li class="chicken__li">
+						<img
+							src="https://w.namu.la/s/a4c1364fb7dbb82c14ff48e9a286b8b82f9f6e5b5e84c4bf8f8d9e6b13b78f8b7efc31eea1ad521461941f07a9fe22db745617f8f9bd53335c1d435cc0feafbd79fe1b4d3d6a3eb9c64dc0645ebba67a65bf86132482d985cdbf5d3a8a7cb791006615c3fb6836b21ff7f5ed926eaa64"
+							alt="페리카나 양념치킨"
+							class="chicken__img"
+						/>
+						<span class="chicken__type-name">양념 치킨</span>
+					</li>
+					<li class="chicken__li">
+						<img
+							src="https://blog.kakaocdn.net/dn/b60cbt/btq4p4yUGNR/CWyd8ekkK7rldWBlvkgWL1/img.jpg"
+							alt="간장 치킨"
+							class="chicken__img"
+						/>
+						<span class="chicken__type-name">간장 치킨</span>
+					</li>
+					<li class="chicken__li">
+						<img
+							src="https://blog.kakaocdn.net/dn/c3ELJG/btqEw3jR9ns/pZhpLX2FjwfQg2iEhRDj9k/img.jpg"
+							alt="뿌링클 치킨"
+							class="chicken__img"
+						/>
+						<span class="chicken__type-name">뿌링클 치킨</span>
+					</li>
+					<li class="chicken__li">
+						<img
+							src="https://mblogthumb-phinf.pstatic.net/MjAyMDExMTVfMjU1/MDAxNjA1NDM4MTIwOTU1.ZLznIckDeA33Go6MhbYhkyUkvKwmlAceiBak1Fa3lhEg.fw1Jy5P0N3ywLVaq63OVL82I-FvIuA2lbJ0Y8h3kNNog.JPEG.nolaso23/1605438120903.jpg?type=w800"
+							alt="투움바 치킨"
+							class="chicken__img"
+						/>
+						<span class="chicken__type-name">투움바 치킨</span>
+					</li>
+					<li class="chicken__li">
+						<img
+							src="http://th2.tmon.kr/thumbs/image/625/f28/8cb/9ee12014b_700x700_95_FIT.jpg"
+							alt="자메이카 통다리 구이"
+							class="chicken__img"
+						/>
+						<span class="chicken__type-name"
+							>자메이카 통다리 구이</span
+						>
+					</li>
+					<li class="chicken__li">
+						<img
+							src="https://blog.kakaocdn.net/dn/dzcI2B/btqYmGXbwno/NbQ4Wfg6GsimWaZxD7Mkx1/img.png"
+							alt="교촌 허니 콤보"
+							class="chicken__img"
+						/>
+						<span class="chicken__type-name">교촌 허니 콤보</span>
+					</li>
+				</ul>
+			</section>
+
+			<article class="chicken-culture">
+				<h3 class="chicken-culture__title">한국의 치킨 문화</h3>
+				<div class="divider">
+					<div class="divider__line divider__line--long"></div>
+				</div>
+				<section class="chicken-culture__column">
+					<h6 class="chicken-culture__label">치밥(Chicken + Rice)</h6>
+					<iframe
+						width="710"
+						height="400"
+						src="https://www.youtube.com/embed/9YwyGNtq8wk"
+						title="처갓집 슈프림양념치킨순살❤치밥 리얼사운드 먹방ASMR(ft.치즈볼) KOREAN CHICKEN MUKBANG ไก่ทอด チキン gà rán ayam goreng | ASMR"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</section>
+				<section class="chicken-culture__column">
+					<h6 class="chicken-culture__label">치맥(Chicken + Beer)</h6>
+					<iframe
+						width="710"
+						height="400"
+						src="https://www.youtube.com/embed/CdCz7vqQW8s"
+						title="[나 혼자 산다] 박재정, 최강 조합 '축치맥⚽🍗🍺'으로 스트레스 부수기!, MBC 210702 방송"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</section>
+			</article>
+		</article>
+
+		<article class="kimchi hidden">
+			<header class="kimchi__header">
+				<h3 class="kimchi__logo">Kinds of kimchi</h3>
+				<button class="close-button">
+					<i class="fa-solid fa-xmark fa-2xl"></i>
+				</button>
+			</header>
+			<section class="kimchi__types">
+				<ul class="kimchi__ul">
+					<li class="kimchi__li">
+						<img
+							src="https://w.namu.la/s/a85e178b2233fa1e3461ae51dba6757e8cc87b215ea326660c85904f61daf0dcd84f8b8733cee71ca34fa743822d5aa1650766f6b2a90118edc5e76974e83052b7abdf18a035f2751cff5bef51456f6695e83306a0c921671b0efa31efe3f8291645ac2c4af6f44042535e10a51f2513"
+							alt="배추김치"
+							class="kimchi__img"
+						/>
+						<span class="kimchi__type-name">배추김치</span>
+					</li>
+					<li class="kimchi__li">
+						<img
+							src="https://w.namu.la/s/af0b122c330634749fcab4382831b6706d2cef2783f47c5294f427ee5082d5cf8a454e87155d19fff27ade07a2f3a97a33c342ee23d254bc10415043bdef9aaf3a6bff2d70fa43c1dc319b8c272348e7660c9c8eea7053e8d054d55d8c66aba6f0473bed7ae84d2a60a794b31b6fadef"
+							alt="깍뚜기"
+							class="kimchi__img"
+						/>
+						<span class="kimchi__type-name">깍뚜기</span>
+					</li>
+					<li class="kimchi__li">
+						<img
+							src="https://w.namu.la/s/b3486b4d0a0d1320dd8ea9f77ec77ce39539a91a28bc10d5406d59301a38694e3a3ca7b5dd1d0bd7dcdfe45c440c16bc3adc170cb768f32756fe5327281e2b1eea43f5ab05543d6189d7edd12327acec876609ca1545360c1eda32b14a967991"
+							alt="동치미"
+							class="kimchi__img"
+						/>
+						<span class="kimchi__type-name">동치미</span>
+					</li>
+					<li class="kimchi__li">
+						<img
+							src="https://w.namu.la/s/5d68ac8ac7a06d0769b92342ba25dbacd1661d5ac52d6263d013f4f18683fc81d28d28dfb9a4b359d90bce6b6168581e521b4fa12f4f2ee6561b47a8783c2f813b11019357b6b2cf9e2502374c95689b7a6e588440dd9746567dfd89efa54fdeaebab756e46ba19f2acdc734507741ab"
+							alt="열무김치"
+							class="kimchi__img"
+						/>
+						<span class="kimchi__type-name">열무김치</span>
+					</li>
+					<li class="kimchi__li">
+						<img
+							src="https://w.namu.la/s/135d0af1886e16ee79667c025b25690e28755589c950f5e96cc7ea0692af3cb93ade4a4a84282fbcdf20dabc3efbfb9babbfad5bd1456a622341cd60e65ca2b2ceddcbdda897291c9b17449983faced1c9415faabc78631e302b84331412ef8ed5333c48357bfa4085430cf2ee1daeeb"
+							alt="오이소박이"
+							class="kimchi__img"
+						/>
+						<span class="kimchi__type-name">오이소박이</span>
+					</li>
+					<li class="kimchi__li">
+						<img
+							src="https://w.namu.la/s/3e995e5e7518a9ecb8a23fdf2cd8da2fa5c8a2eb422c02a033a1b48d830d3ac7367b6c328baf0b21f4618489d6ca137862df402cf0869cb3e6cb9088d01773a088e3dd98573b0639b40fa9366bc1f313d3edb60a1787d77843cc1b0bb691d623e4d683b2ff3de3bd3e09b9a72b36d57e"
+							alt="파김치"
+							class="kimchi__img"
+						/>
+						<span class="kimchi__type-name">파김치</span>
+					</li>
+					<li class="kimchi__li">
+						<img
+							src="https://w.namu.la/s/6009c1b4e46d79fd158613efd1e15fcda3e9c23a8fdd2f52efbf11aab67696411b5a95ea719474416b2cfb03f5604966c3da61b1b3d562597811f845defda79dbd5ba655c6ab4cfe9aebc073c28005b4166d7a990a8d1109b04ba4974220cca6"
+							alt="총각김치"
+							class="kimchi__img"
+						/>
+						<span class="kimchi__type-name">총각김치</span>
+					</li>
+				</ul>
+			</section>
+
+			<article class="kimchi-culture">
+				<h3 class="kimchi-culture__title">한국의 김치 문화</h3>
+				<div class="divider">
+					<div class="divider__line divider__line--long"></div>
+				</div>
+				<section class="kimchi-culture__column">
+					<h6 class="kimchi-culture__label">대한민국의 전통, 김치</h6>
+					<iframe
+						width="710"
+						height="400"
+						src="https://www.youtube.com/embed/VlJ-_zmewe4"
+						title="예술 속에 김치를 담다, 대한민국 전통의 맛과 멋. (The taste and style of Kimchi) [문화재청 X 비비고]"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</section>
+				<section class="kimchi-culture__column">
+					<h6 class="kimchi-culture__label">김치</h6>
+					<p
+						class="kimchi-culture__describe"
+						style="line-height: 2; text-align: center"
+					>
+						김치는 한국의 전통 발효식품이자 일종의 조리 양식이다.
+						소금물에 절이고 발효시켜 보관성을 높인 채소를 갖은
+						양념으로 맛을 내어 먹는 음식. 다른 수식어 없이
+						'김치'라고만 말하면 김장배추를 고추가루로 빨갛게 만든
+						남부지방식 배추김치를 주로 말하는 것이고 이것이
+						세계적으로 가장 유명하다. 이런 맵고 짠 김치 외에도
+						다양한 종류의 김치가 존재하는데, 무를 절여서 만든
+						총각김치나 깍두기, 오이로 만든 오이소박이, 과거의
+						서울이나 현 북부지방에서 김치 하면 주로 떠올렸던 백김치
+						등의 김치도 존재한다. 한번 절인 채소를 다시 양념한다는
+						점이 특징이다. 사용되는 재료에 있어서도 일부 몇몇 채소를
+						제외하고는 대부분이 가능하다. 아울러 저온 상태에서 밀봉
+						보관이 가능하다면 몇 년간 두고 먹을 수 있는 장기 보관
+						음식이기도 하다. 또한, 김치의 종류는 매우 다양하여 가장
+						많이 알려진 배추김치[4]부터 시작해서 다양한 변형이
+						존재한다. 지역마다 다른 지역에서는 볼 수 없는 요리법과
+						재료를 사용한 김치가 존재해 향토음식으로서의 정체성 또한
+						갖고 있다. 한국음식 특유의 '매콤함과 감칠맛'을 느낄 수
+						있는 내외국인 공인 가장 한국적인 한국 요리라 할 수 있다.
+						김치만으로 식사를 해온 역사도 길고, 오늘날 어지간한 1인
+						가구조차도 김치 정도는 갖추고 있다는 점에서 한국인의
+						생활과 아주 밀접하게 닿아있는 요리이다.
+					</p>
+				</section>
+			</article>
+		</article>
+
+		<article class="bibimbap hidden">
+			<article class="bibimbap-culture">
+				<h3 class="bibimbap-culture__title">비빔밥</h3>
+				<button class="close-button">
+					<i class="fa-solid fa-xmark fa-2xl"></i>
+				</button>
+				<div class="divider">
+					<div class="divider__line divider__line--long"></div>
+				</div>
+				<section class="bibimbap-culture__column">
+					<h6 class="bibimbap-culture__label">비빔밥 조리 과정</h6>
+					<iframe
+						width="710"
+						height="400"
+						src="https://www.youtube.com/embed/KITd1-_Wuqw"
+						title="한식의 품격 오색비빔밥 :  Bibimbap"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</section>
+				<section class="bibimbap-culture__column">
+					<h6 class="chicken-culture__label">외국에서의 비빔밥</h6>
+					<iframe
+						width="710"
+						height="400"
+						src="https://www.youtube.com/embed/Tu3sE2gGigo"
+						title="[#윤식당2] 오- 오오오! 이 맛은..!💫 윤식당 비빔밥 먹고 충격에 빠진 옆집 사장님ㅋㅋ 이건 알려야 해!! |#다시보는윤식당 #Diggle"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</section>
+			</article>
+		</article>
+
+		<article class="bulgogi hidden">
+			<article class="bulgogi-culture">
+				<h3 class="bulgogi-culture__title">불고기</h3>
+				<button class="close-button">
+					<i class="fa-solid fa-xmark fa-2xl"></i>
+				</button>
+				<div class="divider">
+					<div class="divider__line divider__line--long"></div>
+				</div>
+				<section class="bulgogi-culture__column">
+					<h6 class="bulgogi-culture__label">
+						외국인들이 불고기를 보고 놀란 이유?
+					</h6>
+					<iframe
+						width="710"
+						height="400"
+						src="https://www.youtube.com/embed/fqsWdIYkyUw"
+						title="아니 이게 3인분이라고??! K-불고기 산의 위엄👍+달콤매콤 떡볶이 먹방! l #어서와한국은처음이지 l #MBCevery1 l EP.262"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</section>
+				<section class="bulgogi-culture__column">
+					<h6 class="bulgogi-culture__label">
+						맛있는 불고기를 만드는 비법
+					</h6>
+					<iframe
+						width="710"
+						height="400"
+						src="https://www.youtube.com/embed/p3IQTouKyH0"
+						title="글로벌 한식! '소불고기'. 한국의 불고기가 이렇게 맛있습니다. ㅣ 백종원의 백종원 레시피"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</section>
+			</article>
+		</article>
+
+		<article class="tteokbokki hidden">
+			<header class="tteokbokki__header">
+				<h3 class="tteokbokki__logo">Kinds of tteokbokkis</h3>
+				<button class="close-button">
+					<i class="fa-solid fa-xmark fa-2xl"></i>
+				</button>
+			</header>
+			<section class="tteokbokki__types">
+				<ul class="tteokbokki__ul">
+					<li class="tteokbokki__li">
+						<img
+							class="tteokbokki__img"
+							src="https://w.namu.la/s/604fd04db5db212b5bbfac902ed73f465c0de4cdd114b98a2c15fc2e0c77d4240b0ade4cd1333077f204d079e01f1caa682834d800dba36bb13e9a1de63bb51953b4284843bc4a8fae89352281bb1ddd1883640a42ee8f0ff0fef6f748cdda2737e2ceb4cee14261dbb5c374c035fad7"
+							alt="떡볶이"
+						/>
+						<span class="tteokbokki__type-name">떡볶이</span>
+					</li>
+					<li class="tteokbokki__li">
+						<img
+							class="tteokbokki__img"
+							src="https://recipe1.ezmember.co.kr/cache/recipe/2017/05/10/1b6d4020fc0c24370a624eddae427cdf1.jpg"
+							alt="궁중 떡볶이"
+						/>
+						<span class="tteokbokki__type-name">궁중 떡볶이</span>
+					</li>
+					<li class="tteokbokki__li">
+						<img
+							class="tteokbokki__img"
+							src="https://mblogthumb-phinf.pstatic.net/MjAyMDA4MjRfOTEg/MDAxNTk4MjExODA0NDMx.Wf0vVWbkr-R3cXw7LlV0pMKenY_70cCRUpAAZgHqsAkg.jNEoJZ2rSNrhs__7NJRkIEuUZZtJ4vn9r7_wTf9EKQog.JPEG.daebak2bak/1598211802186.jpg?type=w800"
+							alt="기름 떡볶이"
+						/>
+						<span class="tteokbokki__type-name">기름 떡볶이</span>
+					</li>
+					<li class="tteokbokki__li">
+						<img
+							class="tteokbokki__img"
+							src="https://recipe1.ezmember.co.kr/cache/recipe/2021/03/09/ce6f18d448de2fde1e9e3147f1b0a69f1.jpg"
+							alt="로제 떡볶이"
+						/>
+						<span class="tteokbokki__type-name">로제 떡볶이</span>
+					</li>
+					<li class="tteokbokki__li">
+						<img
+							class="tteokbokki__img"
+							src="https://recipe1.ezmember.co.kr/cache/recipe/2016/05/16/0e7702e75db4a6a959718ac361396a281.jpg"
+							alt="크림 떡볶이"
+						/>
+						<span class="tteokbokki__type-name">크림 떡볶이</span>
+					</li>
+					<li class="tteokbokki__li">
+						<img
+							class="tteokbokki__img"
+							src="https://recipe1.ezmember.co.kr/cache/recipe/2018/03/04/ba55307500f38b5b93e75f479290cd711.jpg"
+							alt="라볶이"
+						/>
+						<span class="tteokbokki__type-name">라볶이</span>
+					</li>
+					<li class="tteokbokki__li">
+						<img
+							class="tteokbokki__img"
+							src="https://mblogthumb-phinf.pstatic.net/MjAyMDAzMTBfMTM1/MDAxNTgzODMyMTA4NTI4.iOSfpMUceIt-lJMOGFt8Hb9fvqFibngF9PV2TSEP2scg.zcZ17pLfMng23jpX5zUFDCaUaavvndUyOUz_W7bzYOkg.JPEG.phjsunflower/1.JPG?type=w800"
+							alt="엽기 떡볶이"
+						/>
+						<span class="tteokbokki__type-name">엽기 떡볶이</span>
+					</li>
+					<li class="tteokbokki__li">
+						<img
+							class="tteokbokki__img"
+							src="https://recipe1.ezmember.co.kr/cache/recipe/2020/07/27/0e49f71e767b08a98ab09ba37dd38fc71.jpg"
+							alt="짜장 떡볶이"
+						/>
+						<span class="tteokbokki__type-name">짜장 떡볶이</span>
+					</li>
+				</ul>
+			</section>
+
+			<article class="tteokbokki-culture">
+				<h3 class="tteokbokki-culture__title">한국의 치킨 문화</h3>
+				<div class="divider">
+					<div class="divider__line divider__line--long"></div>
+				</div>
+				<section class="tteokbokki-culture__column">
+					<h6 class="tteokbokki-culture__label">이탈리아의 떡볶이</h6>
+					<iframe
+						width="710"
+						height="400"
+						src="https://www.youtube.com/embed/AMe9AQoCUMc"
+						title="현지에서 K-분식이 먹힐까? 이탈리아에 떡볶이집 창업 고민하게 만든 한국 분식 파티!🍢🥘"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</section>
+				<section class="tteokbokki-culture__column">
+					<h6 class="tteokbokki-culture__label">
+						한국 길거리 분식, 떡볶이
+					</h6>
+					<iframe
+						width="710"
+						height="400"
+						src="https://www.youtube.com/embed/ECAOSuyJpO0"
+						title="[어서와ZIP] 매콤한 길거리 떡볶이 vs 보글보글 즉석 떡볶이 l #어서와한국은처음이지 l EP.92,106"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</section>
+			</article>
+		</article>
+
+		<div class="divider">
+			<div class="divider__line"></div>
+		</div>
+
+		<footer class="footer">
+			<nav class="footer__nav">
+				<a href="https://github.com/dong99u">Github</a> |
+				<a href="https://www.instagram.com/d99u_p/">Instagram</a>
+			</nav>
+			<p class="footer__info">
+				<span>Author: Park Dong Kyu</span> <br />
+				<span>E-mail : qkrehdrb0813@gmail.com</span> <br />
+				<span>Copyleft 2022. Park Dong Kyu.</span>
+			</p>
+		</footer>
+
+		<div class="cover-screen">Screen width is too small</div>
+
+		<script src="scripts/foods.js"></script>
+		<script
+			src="https://kit.fontawesome.com/c9341f871e.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

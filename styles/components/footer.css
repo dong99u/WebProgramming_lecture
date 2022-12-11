@@ -1,0 +1,29 @@
+.divider {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divider__line {
+	height: 1px;
+	border-radius: 100px;
+	width: 90%;
+	background-color: grey;
+}
+
+.divider__line--long {
+	width: 100%;
+}
+.footer {
+	padding: 30px;
+	color: grey;
+}
+.footer__nav {
+	margin-bottom: 20px;
+}
+
+.footer__nav a {
+	color: grey;
+	text-decoration: none;
+	padding: 10px;
+}
