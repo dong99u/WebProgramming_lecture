@@ -10,6 +10,7 @@
 	margin-bottom: 30px;
 	height: 700px;
 	overflow: auto;
+	transition: all 0.3s ease-in-out;
 }
 
 .chicken::-webkit-scrollbar {
